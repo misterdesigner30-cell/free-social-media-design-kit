@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple reference for common social media graphic dimensions and design tips.">
+  <title>Social Media Design Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Social Media Design Kit home">
+      <span class="brand-mark">S</span>
+      <span>Design Kit<span class="brand-dot">.</span></span>
+    </a>
+    <span class="header-note">A practical guide for creators</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">DESIGN RESOURCE · VERSION 1.0</p>
+      <h1>Make every pixel<br><span>count.</span></h1>
+      <p class="hero-copy">A simple, beginner-friendly reference for planning social media graphics—with dimensions and practical design checks in one place.</p>
+      <a class="hero-link" href="#dimensions">Explore dimensions <span aria-hidden="true">↓</span></a>
+      <div class="hero-shape shape-one" aria-hidden="true"></div>
+      <div class="hero-shape shape-two" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="dimensions">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">QUICK REFERENCE</p>
+          <h2>Start with the right canvas.</h2>
+        </div>
+        <p class="section-description">Common starting dimensions. Always check the platform's latest official specifications before publishing.</p>
+      </div>
+      <div class="cards">
+        <article class="size-card">
+          <div class="preview preview-square"><span>1:1</span></div>
+          <p class="platform">INSTAGRAM · FEED</p>
+          <h3>Square post</h3>
+          <p class="dimensions">1080 × 1080 px</p>
+          <button class="copy-button" data-copy="1080 × 1080 px">Copy dimensions</button>
+        </article>
+        <article class="size-card">
+          <div class="preview preview-portrait"><span>4:5</span></div>
+          <p class="platform">INSTAGRAM · FEED</p>
+          <h3>Portrait post</h3>
+          <p class="dimensions">1080 × 1350 px</p>
+          <button class="copy-button" data-copy="1080 × 1350 px">Copy dimensions</button>
+        </article>
+        <article class="size-card">
+          <div class="preview preview-story"><span>9:16</span></div>
+          <p class="platform">STORIES · REELS</p>
+          <h3>Vertical canvas</h3>
+          <p class="dimensions">1080 × 1920 px</p>
+          <button class="copy-button" data-copy="1080 × 1920 px">Copy dimensions</button>
+        </article>
+        <article class="size-card">
+          <div class="preview preview-landscape"><span>1.91:1</span></div>
+          <p class="platform">LINKEDIN · SHARED IMAGE</p>
+          <h3>Landscape graphic</h3>
+          <p class="dimensions">1200 × 627 px</p>
+          <button class="copy-button" data-copy="1200 × 627 px">Copy dimensions</button>
+        </article>
+      </div>
+      <p class="notice" role="note">These are commonly used starting points, not a guarantee of current platform requirements. Confirm the latest specs before publishing.</p>
+    </section>
+
+    <section class="tips-section">
+      <div>
+        <p class="eyebrow">DESIGN CHECKLIST</p>
+        <h2>Before you export.</h2>
+        <p class="section-description">A few small checks can make a graphic clearer and easier to use.</p>
+      </div>
+      <ul class="checklist">
+        <li><span>01</span><div><strong>One clear message</strong><p>Give the headline the strongest visual priority.</p></div></li>
+        <li><span>02</span><div><strong>Readable contrast</strong><p>Make sure text stands out from its background.</p></div></li>
+        <li><span>03</span><div><strong>Safe spacing</strong><p>Keep important text away from edges and interface overlays.</p></div></li>
+        <li><span>04</span><div><strong>Export and review</strong><p>Check sharpness, spelling, cropping, and file size.</p></div></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <span>Social Media Design Kit</span>
+    <span>Made for learning and sharing responsibly.</span>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
